@@ -39,10 +39,11 @@ nav ul li a{
     font-size: larger;
 }
 
-.sign:hover{
+nav .sign:hover{
     color:white;
     background-color: green;
     border-radius: 10px;
+    text-decoration: none;
 }
 section{
     padding-top: 40px;
@@ -72,6 +73,210 @@ section{
     padding: 10px 30px;
     color:white;
 }
-.cat1{
-    background-color: rgb(197, 238, 197);
+.button:hover{
+    background-color: white;
+    color:red;
+    text-decoration: none;
+    
 }
+.row{
+    margin-top:20px ;
+    margin-bottom: 50px;
+}
+ .cat1 img{
+     height: 100px;
+     
+ }
+ .cat2 img{
+    height: 100px;
+ }
+ .cat3 img{
+    height: 100px;
+ }
+ .cat4 img{
+    height: 100px;
+ }
+.cat1, .cat2, .cat3, .cat4{
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: dimgrey;
+}
+.cat1, .cat2, .cat3, .cat4, h6{
+    background-color: rgb(250, 251, 249);
+    color:dimgray;
+}
+.cat2:hover{
+    background-color:white;
+}
+.onlineCourse-part {
+    padding-bottom: 70px;
+}
+
+.card-img img {
+    width: 92%;
+    height: 234px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body button {
+    width: 125px;
+    height: 35px;
+    padding: 5px 0px;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.car-content {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.calender img {
+    height: 22px;
+    width: 16%;
+    margin-left: 14px;
+}
+
+.people p,
+.calender p {
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.people {
+    margin-right: 10px;
+}
+
+.people img {
+    height: 23px;
+    width: 25%;
+}
+
+
+/* =========== Testimonial part Start =========== */
+
+.testimonial-part {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.carousel-inner {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.carousel-item img {
+    margin-left: 80%;
+    height: 150px;
+    width: 150px;
+    margin-top: 22px;
+}
+
+.carousel-item p {
+    margin-left: 25%;
+    margin-top: 60px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+/* =========== Footer Part Start =========== */
+
+.footer-part {
+    background-color: rgb(39, 40, 43);
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.footer-part p {
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+.footer-menu {}
+
+.footer-menu1 ul {
+    margin-left: 90px;
+}
+
+.footer-menu1 ul .active a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-menu1 ul li {
+    margin-top: 8px;
+}
+
+.footer-menu1 ul li a {
+    color: rgb(209, 205, 205);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-menu2 ul {
+    margin-left: 45px;
+}
+
+.footer-menu2 ul .active a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-menu2 ul li {
+    margin-top: 8px;
+}
+
+.footer-menu2 ul li a {
+    color: rgb(209, 205, 205);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-menu3 ul {
+    margin-left: 140px;
+}
+
+.footer-menu3 ul .active a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-menu3 ul li {
+    margin-top: 8px;
+}
+
+.footer-menu3 ul li a {
+    color: rgb(209, 205, 205);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    margin-top: 70px;
+}
+
+.footer-bottom p span {
+    font-size: 15px;
+}
+
+
+/* =========== Footer Part End =========== */
